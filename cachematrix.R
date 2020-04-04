@@ -30,3 +30,5 @@ cacheSolve <- function(x, ...) {
   
   return(inv)               # solution 
 }
+
+data <- matrix(c(1, 3, 4, 1, 3, 4, 4, 3, 0), nrow=3, ncol=3)
